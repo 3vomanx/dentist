@@ -1,0 +1,117 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 10 May 2023 13:35:55 at https://www.emergencydentistnewyorkny.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.emergencydentistnewyorkny.com/ -O1 "C:\Users\ILLUMINATI\Desktop\dental" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/robots.txt
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/robots.txt and https://www.emergencydentistnewyorkny.com/robots.txt
+
+13:36:05	Warning: 	Warning moved treated for www.emergencydentistnewyorkny.com/robots.txt (real one is https://www.emergencydentistnewyorkny.com/robots.txt)
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/ and https://www.emergencydentistnewyorkny.com/services/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/ to https://www.emergencydentistnewyorkny.com/services/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/emergency-dentistry/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/emergency-dentistry/ and https://www.emergencydentistnewyorkny.com/services/emergency-dentistry/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/emergency-dentistry/ to https://www.emergencydentistnewyorkny.com/services/emergency-dentistry/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/cosmetic-dentistry/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/cosmetic-dentistry/ and https://www.emergencydentistnewyorkny.com/services/cosmetic-dentistry/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/cosmetic-dentistry/ to https://www.emergencydentistnewyorkny.com/services/cosmetic-dentistry/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dental-bonding/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dental-bonding/ and https://www.emergencydentistnewyorkny.com/services/dental-bonding/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dental-bonding/ to https://www.emergencydentistnewyorkny.com/services/dental-bonding/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dental-bridge-repair/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dental-bridge-repair/ and https://www.emergencydentistnewyorkny.com/services/dental-bridge-repair/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dental-bridge-repair/ to https://www.emergencydentistnewyorkny.com/services/dental-bridge-repair/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dental-crown-repair/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dental-crown-repair/ and https://www.emergencydentistnewyorkny.com/services/dental-crown-repair/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dental-crown-repair/ to https://www.emergencydentistnewyorkny.com/services/dental-crown-repair/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dental-fillings/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dental-fillings/ and https://www.emergencydentistnewyorkny.com/services/dental-fillings/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dental-fillings/ to https://www.emergencydentistnewyorkny.com/services/dental-fillings/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dentures-repair/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dentures-repair/ and https://www.emergencydentistnewyorkny.com/services/dentures-repair/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dentures-repair/ to https://www.emergencydentistnewyorkny.com/services/dentures-repair/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/dental-veneers/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/dental-veneers/ and https://www.emergencydentistnewyorkny.com/services/dental-veneers/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/dental-veneers/ to https://www.emergencydentistnewyorkny.com/services/dental-veneers/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/endodontics-and-root-canals/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/endodontics-and-root-canals/ and https://www.emergencydentistnewyorkny.com/services/endodontics-and-root-canals/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/endodontics-and-root-canals/ to https://www.emergencydentistnewyorkny.com/services/endodontics-and-root-canals/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/services/restorative-dentistry/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/services/restorative-dentistry/ and https://www.emergencydentistnewyorkny.com/services/restorative-dentistry/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/services/restorative-dentistry/ to https://www.emergencydentistnewyorkny.com/services/restorative-dentistry/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/about/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/about/ and https://www.emergencydentistnewyorkny.com/about/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/about/ to https://www.emergencydentistnewyorkny.com/about/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/contact/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/contact/ and https://www.emergencydentistnewyorkny.com/contact/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/contact/ to https://www.emergencydentistnewyorkny.com/contact/
+
+13:36:05	Warning: 	Moved Permanently for www.emergencydentistnewyorkny.com/privacy-and-cookies-policy/
+
+13:36:05	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emergencydentistnewyorkny.com/privacy-and-cookies-policy/ and https://www.emergencydentistnewyorkny.com/privacy-and-cookies-policy/
+
+13:36:05	Warning: 	File has moved from www.emergencydentistnewyorkny.com/privacy-and-cookies-policy/ to https://www.emergencydentistnewyorkny.com/privacy-and-cookies-policy/
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 seconds : 24 links scanned, 8 files written (1329469 bytes overall) [382774 bytes received at 38277 bytes/sec], 1318033 bytes transferred using HTTP compression in 5 files, ratio 26%, 12.6 requests per connection
+
+(No errors, 45 warnings, 0 messages)
+
+
+
+
+
+<header class="header_wrapper js-widget" data-widget="header" data-settings="{&quot;burger&quot;:false,&quot;float&quot;:&quot;left&quot;,&quot;sloganCollapseSetup&quot;:{}}" data-offset="{&quot;header&quot;:{&quot;desktop&quot;:80,&quot;mobile&quot;:60,&quot;topOffset&quot;:0,&quot;bottomOffset&quot;:0},&quot;total&quot;:{&quot;desktop&quot;:80,&quot;mobile&quot;:60}}" itemType="https://schema.org/WPHeader" itemscope="" style="opacity:0"><div class="header"><div class="header__item main__header" style="background-color:#fff;border-top-color:var(--color_brand);border-bottom-color:var(--color_brand);border-top-width:0px;border-bottom-width:0px;position:relative;height:80px" data-style="{&quot;backgroundColor&quot;:&quot;#fff&quot;,&quot;borderTopColor&quot;:&quot;var(--color_brand)&quot;,&quot;borderBottomColor&quot;:&quot;var(--color_brand)&quot;,&quot;borderTopWidth&quot;:&quot;0px&quot;,&quot;borderBottomWidth&quot;:&quot;0px&quot;,&quot;position&quot;:&quot;relative&quot;,&quot;height&quot;:80}"><div class="s-wrapper s-wrapper_original"><div class="header__wrap"><div class="header-layout-wrapper _left header-nav"><nav class="nav__box nav__box_3"><div class="s-wrapper s-wrapper_nav"><div id="navigation__box" class="navigation__box" style="order:0"><ul class="nav" itemProp="mainEntity" itemType="https://schema.org/SiteNavigationElement"><li class="nav__item nav__item_active"><div class="nav__item-inner"><a class="nav__link" style="padding:0 3px" href="index.html" target="_self" itemProp="url"><span class="nav__title">Home</span></a></div></li><li class="nav__item nav__item_has-child"><div class="nav__item-inner"><a class="nav__link" style="padding:0 3px" href="services/index.html" target="_self" itemProp="url"><span class="nav__title">Services</span></a></div><div class="sub-menu__nav" style="right:initial;left:0"><div class="sub-menu__nav-background" style="pointer-events:none;background-color:#fff"></div><div class="nav-item__native-scroll"><ul><li class="sub-menu__item"><a class="sub-menu__link" href="services/emergency-dentistry/index.html" target="_self" itemProp="url"><span class="nav__title">Emergency Dentistry</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/cosmetic-dentistry/index.html" target="_self" itemProp="url"><span class="nav__title">Cosmetic Dentistry</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dental-bonding/index.html" target="_self" itemProp="url"><span class="nav__title">Dental Bonding</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dental-bridge-repair/index.html" target="_self" itemProp="url"><span class="nav__title">Dental Bridge Repair</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dental-crown-repair/index.html" target="_self" itemProp="url"><span class="nav__title">Dental Crown Repair</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dental-fillings/index.html" target="_self" itemProp="url"><span class="nav__title">Dental Fillings</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dentures-repair/index.html" target="_self" itemProp="url"><span class="nav__title">Dentures Repair</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/dental-veneers/index.html" target="_self" itemProp="url"><span class="nav__title">Dental Veneers</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/endodontics-and-root-canals/index.html" target="_self" itemProp="url"><span class="nav__title">Endodontics &amp; Root Canals</span></a></li><li class="sub-menu__item"><a class="sub-menu__link" href="services/restorative-dentistry/index.html" target="_self" itemProp="url"><span class="nav__title">Restorative Dentistry</span></a></li></ul></div></div></li><li class="nav__item"><div class="nav__item-inner"><a class="nav__link" style="padding:0 3px" href="about/index.html" target="_self" itemProp="url"><span class="nav__title">About</span></a></div></li><li class="nav__item"><div class="nav__item-inner"><a class="nav__link" style="padding:0 3px" href="contact/index.html" target="_self" itemProp="url"><span class="nav__title">Contact</span></a></div></li></ul></div></div></nav></div><div class="header-layout-wrapper"><div class="buttons__box"><div class="btn__wrap"><a class="btn btn_primary effect-fade-out" style="font-size:14em" spellcheck="false" target="" href="tel:+17326162383"><i class="icon" data-style="{}"><svg style="fill:rgb(255, 255, 255)" data-style="{&quot;fill&quot;:&quot;rgb(255, 255, 255)&quot;}"><use xlink:href="#templates/_global/defaultList/11"></use></svg></i><span>732-616-2383</span></a></div></div></div><div id="burger__box" class="burger__box nav__effect_1 nav_theme-3 left" style="display:none"><div class="btn__burger-wrap"><div id="btn__burger" class="btn__burger btn__burger_4"><div class="burger__icon"><div class="burger__icon-line"></div><div class="burger__icon-line"></div><div class="burger__icon-line"></div><div class="burger__icon-line"></div><div class="burger__icon-line"></div><div class="burger__icon-line"></div></div></div></div><div class="nav__box-wrap"><div class="nav__box-wrap--sticky"><div class="s-wrapper"><div></div></div></div></div></div></div></div></div></div></header>

@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 9px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #F7F9FB;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #a5a5a5; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6e6e6e; 
+  }
+
+.blogscontainer{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #F7F9FB;
+}
+
+.blogcontent{
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.contenttitle{
+    width: 100%;
+    height: 15vh;
+}
+
+.contenttitle span{
+    font-size: 15px;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #2b2b2d;
+    line-height: 18px;
+    letter-spacing: 0.05cm;
+}
+
+.contenttitle h1{
+    font-size: 57px;
+    line-height: 90px;
+    font-weight: 600;
+    color: #2b2b2d;
+    letter-spacing: 0.05cm;
+}
+
+.blogboxes{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin: 2% 0 0 0;
+}
+
+.blogbox{
+    width: 30%;
+    height: 10vh;
+    text-decoration: none;
+    color: #2b2b2d;
+}
+
+.blogbox span{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 550;
+    line-height: 60px;
+    transition: all 0.3s ease;
+    margin: 0 0 0 1%;
+}
+
+.blogbox span:hover{
+    color: #6d6d6d;
+}
+
+.blogbox h2{
+    width: 80%;
+    font-size: 28px;
+    transition: all 0.3s ease;
+    margin: 0 0 0 1%;
+}
+
+.blogbox h2:hover{
+    color: #6d6d6d;
+}
+
+.blogimg{
+    border-radius: 15px;
+}
+
+.blog1{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.blog2{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.blog3{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-hover-zoom{
+    overflow: hidden; 
+    background: #F7F9FB;
+}
+  
+.img-hover-zoom img{
+    transition: transform .5s ease;
+}
+  
+.img-hover-zoom:hover img{
+    transform: scale(1.09);
+    position: relative;
+}
+
+@media screen and (max-width:1600px){
+
+    .blogcontent{
+        height: 75vh;
+    }
+
+    .blogboxes{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 2% 0 0 0;
+    }
+
+    .blog1{
+        height: 38vh;
+    }
+    
+    .blog2{
+        height: 38vh;
+    }
+    
+    .blog3{
+        height: 38vh;
+    }
+
+    .blogbox span{
+        font-size: 15px;
+    }
+    .blogbox h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:1440px){
+
+    .blogscontainer{
+        height: 80vh;
+    }
+
+    .blogcontent{
+        height: 60vh;
+    }
+
+    .contenttitle span{
+        font-size: 18px;
+    }
+
+    .contenttitle h1{
+        font-size: 53px;
+    }
+
+    .blogbox span{
+        font-size: 16px;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 23px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+
+    .blog1{
+        height: auto;
+    }
+    
+    .blog2{
+        height: auto;
+    }
+    
+    .blog3{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1366px){
+    
+    .blogcontent{
+        height: 70vh;
+    }
+
+    .contenttitle span{
+        font-size: 16px;
+    }
+
+    .contenttitle h1{
+        font-size: 50px;
+    }
+
+    .blogbox span{
+        font-size: 15px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+
+    .blog1{
+        height: auto;
+    }
+    
+    .blog2{
+        height: auto;
+    }
+    
+    .blog3{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1136px){
+
+    .contenttitle h1{
+        font-size: 40px;
+    }
+
+    .blogbox span{
+        font-size: 12px;
+        line-height: 35px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+
+    .blog1{
+        height: auto;
+    }
+    
+    .blog2{
+        height: auto;
+    }
+    
+    .blog3{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:960px){
+
+    .contenttitle h1{
+        font-size: 40px;
+    }
+
+    .blogbox span{
+        font-size: 12px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+
+    .blog1{
+        height: auto;
+    }
+    
+    .blog2{
+        height: auto;
+    }
+    
+    .blog3{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:485px){
+    
+    .contenttitle span{
+        font-size: 12px;
+    }
+    
+    .contenttitle h1{
+        font-size: 30px;
+    }
+    
+    .blogboxes{
+        width: 450px;
+        height: 75vh;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        margin: 2% 5% 0 0%;
+        gap: 5%;
+    }
+    
+    .blogbox{
+        width: 100%;
+        height: 10vh;
+        text-decoration: none;
+        color: #2b2b2d;
+    }
+    
+    .blogbox span{
+        font-size: 14px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+    
+    .blogbox h2:hover{
+        color: #6d6d6d;
+    }
+    
+    .blog1{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog2{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog3{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:391px){
+    
+    .contenttitle span{
+        font-size: 14px;
+    }
+    
+    .contenttitle h1{
+        font-size: 40px;
+    }
+    
+    .blogboxes{
+        width: 350px;
+        height: 75vh;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        margin: 2% 0 0 0;
+        gap: 5%;
+    }
+    
+    .blogbox{
+        width: 100%;
+        height: 10vh;
+        text-decoration: none;
+        color: #2b2b2d;
+    }
+    
+    .blogbox span{
+        font-size: 14px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+    
+    .blogbox h2:hover{
+        color: #6d6d6d;
+    }
+    
+    .blog1{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog2{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog3{
+        width: 320px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:376px){
+    
+    .contenttitle span{
+        font-size: 14px;
+    }
+    
+    .contenttitle h1{
+        font-size: 40px;
+    }
+    
+    .blogboxes{
+        width: 350px;
+        height: 75vh;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        margin: 2% 0 0 0;
+        gap: 10%;
+    }
+    
+    .blogbox{
+        width: 100%;
+        height: 10vh;
+        text-decoration: none;
+        color: #2b2b2d;
+    }
+    
+    .blogbox span{
+        font-size: 14px;
+    }
+    
+    .blogbox span:hover{
+        color: #6d6d6d;
+    }
+    
+    .blogbox h2{
+        width: 80%;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        margin: 0 0 0 1%;
+    }
+    
+    .blogbox h2:hover{
+        color: #6d6d6d;
+    }
+    
+    .blog1{
+        width: 346px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog2{
+        width: 346px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blog3{
+        width: 346px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+

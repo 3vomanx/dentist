@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.recommendationsection{
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.recommendationsection img{
+    width: 100%;
+    height: 755px;
+    object-fit: cover;
+}
+
+.recomcontent{
+    width:25%;
+    height: 55vh;
+    position: absolute;
+    margin: 0 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recomcontenttitle{
+    width: 100%;
+    height: 6vh;
+}
+
+.recomcontenttitle span{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #221f1f;
+    font-family: Montserrat, sans-serif;
+}
+
+.recomtextings{
+    width: 100%;
+    height: 44vh;
+}
+
+.recomtext{
+    width: 480px;
+    height: 17vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-wrapper{
+    width: 25%;
+    height: 2.2em;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid #343434;
+}
+
+.icon-wrapper:hover{
+    border: 2px solid #00bcd5;
+    background: #a3f0fa;
+}
+
+.icon-wrapper .fa{
+    color: #4d4d4d;
+}
+
+.iconcontent h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #343434;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+
+.iconcontent p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #424242;
+    margin: 10px 0 0 13px;
+}
+
+@media screen and (max-width: 1600px){
+
+    .recomcontenttitle span{
+        font-size: 27px;
+    }
+
+    .recomcontent{
+        margin: 0 0 0 10%;
+    }
+
+}
+
+@media screen and (max-width: 1440px){
+
+    .recomcontenttitle span{
+        font-size: 24px;
+    }
+
+    .recomcontent{
+        margin: 5% 0 0 10%;
+    }
+
+    .iconcontent p{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1366px){
+
+    .recomcontenttitle{
+        width: 120%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 23px;
+    }
+
+    .recomcontent{
+        margin: 0 0 3% 8%;
+    }
+
+    .iconcontent p{
+        width: 90%;
+    }
+
+    .recomtext{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 1136px){
+
+    .recomcontenttitle{
+        width: 140%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 23px;
+    }
+
+    .recomcontent{
+        margin: 0 0 6% 8%;
+    }
+
+    .iconcontent p{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .iconcontent h4{
+        width: 90%;
+        font-size: 17px;
+    }
+
+    .recomtext{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .recomcontenttitle{
+        width: 140%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 23px;
+    }
+
+    .recomcontent{
+        margin: 0 0 6% 6%;
+    }
+
+    .iconcontent p{
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .iconcontent h4{
+        width: 76%;
+        font-size: 17px;
+    }
+
+    .recomtext{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .recomcontenttitle{
+        width: 150%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 23px;
+    }
+
+    .recomcontent{
+        margin: 0 0 6% 6%;
+    }
+
+    .iconcontent p{
+        width: 70%;
+        font-size: 15px;
+    }
+
+    .iconcontent h4{
+        width: 76%;
+        font-size: 17px;
+    }
+
+    .recomtext{
+        height: 22vh;
+    }
+
+    .recomcontent{
+        margin-bottom: 12%;
+    }
+}
+
+@media screen and (max-width: 769px){
+
+    .recommendationsection img{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomcontent{
+        height: 55vh;
+    }
+
+    .recomtext{
+        height: 19vh;
+    }
+
+    .recomcontenttitle{
+        width: 250%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .recomcontent{
+        margin: 0% 0 10% 22%;
+    }
+
+    .iconcontent h4{
+        width: 100%;
+        font-size: 22px;
+        margin: 0 0 0 1%;
+
+    }
+
+    .iconcontent p{
+        width: 80%;
+        font-size: 17px;
+        margin: 10px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 485px){
+
+    .recommendationsection{
+        width: 100%;
+        height: 160vh;
+        margin: -50% 0 0% 0;
+    }
+
+    .recommendationsection img{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomcontent{
+        margin-bottom: 70%;
+        height: 70vh;
+    }
+
+    .recomtext{
+        height: 30vh;
+    }
+
+    .recomcontenttitle{
+        width: 350%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .recomcontent{
+        margin: 5% 0 0 10%;
+    }
+
+    .iconcontent h4{
+        font-size: 18px;
+        margin: 0 0 0 1%;
+    }
+
+    .iconcontent p{
+        width: 80%;
+        margin: 10px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 391px){
+
+    .recommendationsection{
+        width: 100%;
+        height: 100vh;
+        margin: -40% 0 0% 0;
+    }
+
+    .recommendationsection img{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomcontent{
+        margin-bottom: 1%;
+        height: 60vh;
+    }
+
+    .recomtext{
+        height: 20vh;
+    }
+
+    .recomcontenttitle{
+        width: 350%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .recomcontent{
+        margin: 5% 0 0 5%;
+    }
+
+    .iconcontent h4{
+        width: 70%;
+        font-size: 17px;
+        margin: 0 0 0 1%;
+    }
+
+    .iconcontent p{
+        width: 60%;
+        margin: 10px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 378px){
+
+    .recommendationsection{
+        width: 100%;
+        height: 100vh;
+        margin: -40% 0 0% 0;
+    }
+
+    .recommendationsection img{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomcontent{
+        margin-bottom: 1%;
+        height: 60vh;
+    }
+
+    .recomtext{
+        height: 20vh;
+    }
+
+    .recomcontenttitle{
+        width: 350%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .recomcontent{
+        margin: 5% 0 0 5%;
+    }
+
+    .iconcontent h4{
+        width: 70%;
+        font-size: 17px;
+        margin: 0 0 0 1%;
+    }
+
+    .iconcontent p{
+        width: 60%;
+        margin: 10px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 321px){
+
+    .recommendationsection{
+        width: 100%;
+        height: 150vh;
+        margin: -100% 0 0% 0;
+    }
+
+    .recommendationsection img{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomcontent{
+        margin-bottom: 1%;
+        height: 60vh;
+    }
+
+    .recomtext{
+        height: 30vh;
+    }
+
+    .recomcontenttitle{
+        width: 350%;
+    }
+
+    .recomcontenttitle span{
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .recomcontent{
+        margin: 5% 0 0 5%;
+    }
+
+    .iconcontent h4{
+        width: 50%;
+        font-size: 16px;
+        margin: 0 0 0 1%;
+    }
+
+    .iconcontent p{
+        width: 50%;
+        margin: 10px 0 0 20px;
+    }
+
+}
